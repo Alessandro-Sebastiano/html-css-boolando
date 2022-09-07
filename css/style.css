@@ -3,3 +3,71 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+:root {
+    --orange: #ff6900;
+    --red: #ff0000;
+    --green: #008000;
+    --grey: #ebebeb;
+    --dark: #1a1a1a;
+}
+
+.flex-box {
+    display: flex;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+body {
+    color: white;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+/*header/navbar*/
+header {
+    background-color: var(--orange);
+    width: 100%;
+}
+
+.navbar {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu ul li {
+    float: left;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.logo {
+    width: 140px;
+}
+
+
+.logo img {
+    width: 100%;
+}
+
+
+
+.icons i {
+    margin-right: 5px;
+    cursor: pointer;
+}
