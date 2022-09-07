@@ -6,11 +6,21 @@
 
 
 :root {
+
+    /*colors*/
     --orange: #ff6900;
     --red: #ff0000;
     --green: #008000;
     --grey: #ebebeb;
     --dark: #1a1a1a;
+    --light: #ffffff;
+
+    /*font-wheight*/
+    --font-light: 300;
+    --font-small: 400;
+    --font-medium: 600;
+    --font-large: 900;
+
 }
 
 .flex-box {
@@ -27,6 +37,25 @@
 
 body {
     color: white;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+
+h3,
+h4,
+h5 {
+    font-weight: var(--font-medium);
+}
+
+p {
+    font-weight: var(--font-light);
+}
+
+
+
+span {
+    font-weight: var(--font-light);
 }
 
 
@@ -49,6 +78,7 @@ header {
     padding: 10px 20px;
     justify-content: space-between;
     align-items: center;
+    font-weight: var(--font-medium);
 }
 
 
@@ -90,7 +120,7 @@ header {
 .card-box {
     width: calc((100% - 45px) / 3);
     min-width: 240px;
-    color: #1a1a1a;
+    color: var(--dark);
     margin-right: 15px;
     margin-bottom: 45px;
 }
@@ -135,6 +165,8 @@ header {
 
 .banner-item {
     padding: 3px 10px;
+    font-weight: var(--font-medium);
+    color: var(--light);
 }
 
 
