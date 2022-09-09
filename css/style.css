@@ -90,6 +90,7 @@ header {
 
 .logo {
     width: 140px;
+    transform: translateX(-50%);
 }
 
 
